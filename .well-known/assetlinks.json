@@ -1,0 +1,18 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.google.browser.examples.twa_sias",
+    "sha256_cert_fingerprints":
+    ["99:92:18:A0:08:FD:33:4C:5C:CF:1E:E1:8E:4E:1A:36:68:1B:07:36:CB:2D:75:B4:E3:39:C8:33:9C:D6:7E:84"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.google.browser.examples.twa_sikp",
+    "sha256_cert_fingerprints":
+    ["99:92:18:A0:08:FD:33:4C:5C:CF:1E:E1:8E:4E:1A:36:68:1B:07:36:CB:2D:75:B4:E3:39:C8:33:9C:D6:7E:84"]
+  }
+}]

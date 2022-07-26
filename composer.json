@@ -1,0 +1,24 @@
+{
+    "description": "The CodeIgniter framework",
+    "name": "codeigniter/framework",
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "support": {
+        "forum": "http://forum.codeigniter.com/",
+        "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+        "slack": "https://codeigniterchat.slack.com",
+        "source": "https://github.com/bcit-ci/CodeIgniter"
+    },
+    "require": {        
+        "phpmailer/phpmailer": "^6.1",
+        "dompdf/dompdf": "^1.2.0",
+        "phpoffice/phpspreadsheet": "^1.12",
+        "smsgatewayme/client": "^0.0.1",
+        "calendarific/php-calendarific": "^2.0"
+    },
+    "config": {
+        "platform-check": false
+    }
+   
+}
