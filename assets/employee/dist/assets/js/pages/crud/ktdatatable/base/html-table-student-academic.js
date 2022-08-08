@@ -15,7 +15,7 @@
 
             var datatable = $('#kt_datatable_student').KTDatatable({
                 data: {
-                    pageSize: "1000",
+                    pageSize: "10",
                 },
                 search: {
                     input: $('#kt_datatable_search_query'),
@@ -23,7 +23,7 @@
                 },
                 toolbar: {
                     items: {
-                        pagination: {pageSizeSelect: [500, 1000]}
+                        pagination: {pageSizeSelect: [10, 50, 100]}
                     }
                 },
                 layout: {

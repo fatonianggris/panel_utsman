@@ -467,6 +467,8 @@ $config['csrf_exclude_uris'] = array(
     'employee/settings/account/update_account_profile/[0-9a-z]+',
     'employee/report/export/export_present_month_csv',
     'employee/report/export/export_present_day_csv',
+		'employee/employe/presence/get_data_presence_day',
+		'employee/employe/presence/get_data_presence_month',
     'ppdb/register/check_nisn_formulir',
     'ppdb/register/send_mail_order_success',
     'ppdb/settings/account/reset_password',
