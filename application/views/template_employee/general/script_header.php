@@ -148,6 +148,14 @@
 				opacity: 0;
 			}
 		}
+
+		@media (min-width: 992px) {
+			.symbol.symbol-lg-300>img {
+				width: 100%;
+				max-width: 360px;
+				height: 300px;
+			}
+		}
 	</style>
 </head>
 <!--begin::Global Theme Bundle(used by all pages)-->
